@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 debian:12-slim
 
-MAINTAINER MURAMATSU Atsushi <amura@tomato.sakura.ne.jp>
+LABEL maintainer="MURAMATSU Atsushi <amura@tomato.sakura.ne.jp>"
 
 ENV WATCOM=/opt/watcom
 ENV INCLUDE=$WATCOM/h EDPATH=$WATCOM/eddat WIPFC=$WATCOM/wipfc
